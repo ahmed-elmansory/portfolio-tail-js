@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="my Nmae is Ahmed Elmansory this my Portfolio design by useng tailwindCss" />
+    <meta name="author" content="Ahmed Elmansory" />
+
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>احمد المنصوري</title>
+</head>
+
+<body class="dark:bg-slate-900 dark:text-slate-100">
+
+
+    <!--  icon color and bars-menu -->
+    <div class="fixed top-3 right-2 text-2xl">
+        <i class="fa fa-bars bars-open-menu p-3 cursor-pointer active:scale-90 lg:hidden"></i>
+
+    </div>
+
+    <!-- aside bar -->
+    <aside
+        class="w-full lg:w-1/4 h-screen overflow-auto bg-slate-200 dark:bg-slate-700 text-center py-6 fixed lg:right-0 -right-full z-20 transition-all duration-1000">
+        <i id="close-menu"
+            class="fa fa-close active:scale-90 lg:hidden cursor-pointer p-3 absolute end-0 top-0 hover:bg-red-600 hover:">
+        </i>
+        <div class="w-40 pt-8 mx-auto">
+            <img class="w-full rounded-full border-slate-50 border-8" src="img/ahmed.png" alt="Ahmed Elmansory" />
+        </div>
+        <div class="py-3">
+            <h2 class=" font-bold text-2xl">احمد المنصوري</h2>
+            <h3 class=" font-bold mt-2 text-sm">
+                مطور واجهات امامية ( React.js )
+            </h3>
+        </div>
+
+        <ul class="w-3/4 mx-auto">
+            <li
+                class="p-2 hover:bg-mainColorLight hover:text-white  dark:hover:bg-mainColorDark border transition duration-500 rounded-lg my-2">
+                <a href="#">نبذة عني</a>
+            </li>
+
+            <li
+                class="p-2 hover:bg-mainColorLight hover:text-white dark:hover:bg-mainColorDark border transition duration-500 rounded-lg my-2">
+                <a href="#skills"> المهارات </a>
+            </li>
+
+            <li
+                class="p-2 hover:bg-mainColorLight hover:text-white dark:hover:bg-mainColorDark border transition duration-500 rounded-lg my-2">
+                <a href="#project"> المشاريع </a>
+            </li>
+
+            <li
+                class="p-2 hover:bg-mainColorLight hover:text-white dark:hover:bg-mainColorDark border transition duration-500 rounded-lg my-2">
+                <a href="#contact"> الاتصال </a>
+            </li>
+        </ul>
+
+        <!-- toggle dark -->
+        <div class="toggle absolute top-4 right-3">
+            <label class="relative inline-flex cursor-pointer items-center">
+                <input type="checkbox" value="" id="toggle" checked class="peer sr-only" />
+                <div
+                    class="peer flex h-8 items-center gap-6 rounded-full bg-orange-600 px-5 after:absolute after:left-1 after: after:h-6 after:w-14 after:rounded-full after:bg-white/40 after:transition-all after:content-[''] peer-checked:bg-stone-600 peer-checked:after:translate-x-full peer-focus:outline-none dark:border-slate-600 dark:bg-slate-600 text-sm text-white">
+                    <span>light</span>
+                    <span>dark</span>
+                </div>
+            </label>
+            <a class="bg-mainColorLight dark:bg-mainColorDark text-white p-2 rounded-full" href="index.html">EN</a>
+        </div>
+
+
+    </aside>
+
+    <!-- about me summary -->
+    <header class="lg:w-3/4 lg:ms-auto w-full p-6">
+        <div class="p-5 text-center">
+            <p class="text-lg py-4 text-right indent-9 ">
+                مطور واجهات أمامية مبتدئ متخصص في بناء تطبيقات الويب أستخدمت تقنيات خلال فتره تعليمي في مشاريع شخصية مثل
+                HTML5، CSS3، JavaScript لبناء تطبيقات ويب عالية الأداء وسهلة الاستخدام.
+                أتمتع بفهم جيد في اطار العمل الحديثه React و Nextjs
+            </p>
+
+            <!-- cv -->
+            <div class="mt-4 w-fit mx-auto">
+                <a class="border py-3 px-5 rounded-lg bg-mainColorLight dark:bg-mainColorDark text-white text-xl"
+                    href="cv/احمد المنصوري مطور واجهات اماميه ( CV ).pdf"
+                    download="Ahmed-Elmansory(front-end React.js).pdf">
+                    تحميل CV
+                </a>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- skills -->
+    <section id="skills" class="px-6 lg:w-3/4 lg:ms-auto w-full text-center">
+        <h2
+            class="main-heding text-center w-fit mx-auto dark:bg-mainColorDark bg-mainColorLight text-white text-3xl p-5">
+            المهارات
+        </h2>
+        </div>
+        <div class="py-10 flex gap-8 items-center justify-center flex-wrap">
+            <!-- html -->
+            <div class=" hover:scale-125 p-3 cursor-pointer rounded-md">
+                <i style="color: #dd4b24" class="fab fa-html5 text-7xl"></i>
+                <h3>HTML</h3>
+            </div>
+            <!-- css -->
+            <div class=" hover:scale-125 p-3 cursor-pointer rounded-md">
+                <i style="color: #244ddb" class="fab fa-css3-alt text-7xl"></i>
+                <h3>CSS</h3>
+            </div>
+            <!-- bootstraP -->
+            <div class=" hover:scale-125 p-3 cursor-pointer rounded-md">
+                <i style="color: #8611f7" class="fab fa-bootstrap text-7xl"></i>
+                <h3>BOOTSTRAP</h3>
+            </div>
+            <!-- tailwind css -->
+            <div class=" hover:scale-125 p-3 cursor-pointer rounded-md">
+                <svg class="ax" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24"
+                    style="fill: #09c">
+                    <path
+                        d="M18.5 9.51a4.22 4.22 0 0 1-1.91-1.34A5.77 5.77 0 0 0 12 6a4.72 4.72 0 0 0-5 4 3.23 3.23 0 0 1 3.5-1.49 4.32 4.32 0 0 1 1.91 1.35A5.77 5.77 0 0 0 17 12a4.72 4.72 0 0 0 5-4 3.2 3.2 0 0 1-3.5 1.51zm-13 4.98a4.22 4.22 0 0 1 1.91 1.34A5.77 5.77 0 0 0 12 18a4.72 4.72 0 0 0 5-4 3.23 3.23 0 0 1-3.5 1.49 4.32 4.32 0 0 1-1.91-1.35A5.8 5.8 0 0 0 7 12a4.72 4.72 0 0 0-5 4 3.2 3.2 0 0 1 3.5-1.51z">
+                    </path>
+                </svg>
+                <h3>Tailwind Css</h3>
+            </div>
+            <!-- git -->
+            <div class=" hover:scale-125 p-3 cursor-pointer rounded-md">
+                <i style="color: #eb4d28" class="fab fa-git-alt text-7xl"></i>
+                <h3>Git</h3>
+            </div>
+            <!-- githup -->
+            <div class=" hover:scale-125 p-3 cursor-pointer rounded-md">
+                <i style="color: #171515" class="fab fa-github text-7xl"></i>
+                <h3>Githup</h3>
+            </div>
+            <!-- js -->
+            <div class=" hover:scale-125 p-3 cursor-pointer rounded-md">
+                <i style="color: #fbd725" class="fab fa-js text-7xl"></i>
+                <h3>Javascrpt</h3>
+            </div>
+            <!-- react -->
+            <div class=" hover:scale-125 p-3 cursor-pointer rounded-md">
+                <i style="color: #087ea4" class="fab fa-react text-7xl"></i>
+                <h3>React js</h3>
+            </div>
+            <!-- redux -->
+            <div class=" hover:scale-125 p-3 cursor-pointer rounded-md">
+                <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24"
+                    style="fill: #7247b6">
+                    <path
+                        d="M15.661 15.549a1.315 1.315 0 0 0 1.185-1.386 1.363 1.363 0 0 0-1.35-1.302h-.048a1.352 1.352 0 0 0-1.303 1.397c.024.379.179.687.391.911-.827 1.609-2.07 2.794-3.954 3.788-1.266.663-2.604.912-3.905.734-1.089-.153-1.94-.64-2.463-1.421-.78-1.185-.852-2.462-.201-3.74a5.597 5.597 0 0 1 1.658-1.931 7.88 7.88 0 0 1-.331-1.218c-3.506 2.51-3.148 5.942-2.084 7.564.794 1.184 2.415 1.941 4.19 1.941.474 0 .972-.035 1.457-.154 3.077-.592 5.409-2.438 6.747-5.16l.011-.023z">
+                    </path>
+                    <path
+                        d="M19.887 12.589c-1.834-2.154-4.533-3.337-7.611-3.337h-.403c-.2-.438-.661-.711-1.183-.711h-.036c-.744 0-1.325.64-1.301 1.385.023.71.627 1.302 1.35 1.302h.059a1.332 1.332 0 0 0 1.183-.828h.439c1.824 0 3.551.532 5.126 1.574 1.206.792 2.072 1.834 2.557 3.077.425 1.019.402 2.013-.035 2.843-.675 1.302-1.812 1.988-3.314 1.988-.947 0-1.871-.296-2.345-.509-.283.235-.758.626-1.102.863 1.042.473 2.096.746 3.113.746 2.309 0 4.023-1.302 4.676-2.557.709-1.422.651-3.813-1.161-5.859l-.012.023z">
+                    </path>
+                    <path
+                        d="M7.647 15.975c.023.71.626 1.302 1.35 1.302h.048a1.334 1.334 0 0 0 1.302-1.397c0-.71-.616-1.301-1.338-1.301h-.048c-.048 0-.118 0-.178.022-.982-1.657-1.397-3.434-1.242-5.349.094-1.445.567-2.7 1.42-3.742.71-.888 2.048-1.326 2.96-1.35 2.556-.048 3.622 3.138 3.704 4.404l1.184.354C16.536 5.036 14.122 3 11.813 3 9.647 3 7.647 4.574 6.842 6.884c-1.102 3.077-.379 6.036.971 8.404-.118.154-.189.426-.166.687z">
+                    </path>
+                </svg>
+                <h3>Redux</h3>
+            </div>
+            <!-- sass -->
+            <div class=" hover:scale-125 p-3 cursor-pointer rounded-md">
+                <i style="color: #c66394" class="fab fa-sass text-7xl"></i>
+                <h3>Sass</h3>
+            </div>
+            <!-- typescrpt -->
+            <div class=" hover:scale-125 p-3 cursor-pointer rounded-md">
+                <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24">
+                    <path
+                        d="M19.24 3H4.76A1.76 1.76 0 0 0 3 4.76v14.48A1.76 1.76 0 0 0 4.76 21h14.48A1.76 1.76 0 0 0 21 19.24V4.76A1.76 1.76 0 0 0 19.24 3zm-5.8 10h-2.25v6.44H9.4V13H7.15v-1.46h6.29zm5.8 5.28a1.71 1.71 0 0 1-.67.74 3 3 0 0 1-1 .39 5.81 5.81 0 0 1-1.2.12 7 7 0 0 1-1.23-.11 4.52 4.52 0 0 1-1-.33v-1.71l-.06-.06h.06v.07a3.41 3.41 0 0 0 1 .54 3.06 3.06 0 0 0 1.13.2 2.58 2.58 0 0 0 .6-.06 1.47 1.47 0 0 0 .42-.17.75.75 0 0 0 .25-.25.69.69 0 0 0-.06-.74 1.24 1.24 0 0 0-.35-.33 3.12 3.12 0 0 0-.53-.3l-.67-.28a3.57 3.57 0 0 1-1.37-1 2 2 0 0 1-.46-1.33 2.16 2.16 0 0 1 .24-1.06 2.09 2.09 0 0 1 .66-.71 2.88 2.88 0 0 1 1-.42 5.11 5.11 0 0 1 1.19-.13 7 7 0 0 1 1.09.07 4.53 4.53 0 0 1 .88.23v1.65a2.42 2.42 0 0 0-.42-.24 3.58 3.58 0 0 0-.49-.17 3 3 0 0 0-.49-.1 2.45 2.45 0 0 0-.46 0 2.29 2.29 0 0 0-.56.06 1.54 1.54 0 0 0-.43.16.78.78 0 0 0-.26.25.63.63 0 0 0-.09.33.62.62 0 0 0 .1.35 1.19 1.19 0 0 0 .3.29 2.15 2.15 0 0 0 .46.28l.63.28a6.56 6.56 0 0 1 .84.42 2.65 2.65 0 0 1 .64.49 1.79 1.79 0 0 1 .42.63 2.48 2.48 0 0 1 .14.85 2.68 2.68 0 0 1-.25 1.08z">
+                    </path>
+                </svg>
+                <h3>typescrpt</h3>
+            </div>
+            <!-- jquery -->
+            <div class=" hover:scale-125 p-3 cursor-pointer rounded-md">
+                <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24" style="fill:#78CFF5">
+                    <path
+                        d="M3.345 6.935c-1.756 2.523-1.538 5.806-.196 8.487l.098.19c.021.04.041.082.063.121.012.024.026.047.039.069a7.842 7.842 0 0 0 .198.344l.073.12a9.14 9.14 0 0 0 .211.33 10.179 10.179 0 0 0 .221.319l.036.049c.063.088.129.175.196.261l.074.094.182.223.069.082c.082.097.167.194.252.289l.005.005c.004.004.007.006.01.011.083.091.17.181.256.271l.083.083.205.201.084.08c.092.087.186.172.281.256l.004.004.049.041c.083.073.169.145.255.215l.105.084a11.03 11.03 0 0 0 .565.424c.029.021.057.042.087.062l.024.017c.076.053.154.103.231.153.033.022.066.045.101.067a10.975 10.975 0 0 0 .886.509c.065.034.129.068.195.101l.045.022.08.039c.102.048.205.097.308.143l.066.029c.119.052.239.102.36.149l.088.035a13.895 13.895 0 0 0 .382.142c.125.044.252.085.38.124l.092.028c.128.039.256.085.39.11 8.492 1.548 10.958-5.102 10.958-5.102-2.072 2.698-5.748 3.41-9.232 2.618-.132-.03-.261-.071-.39-.109l-.097-.029a10.929 10.929 0 0 1-.755-.264l-.093-.036c-.12-.047-.239-.097-.356-.148l-.071-.031a11.932 11.932 0 0 1-.301-.14l-.087-.042c-.078-.038-.155-.079-.232-.118-.051-.027-.104-.053-.155-.082a8.294 8.294 0 0 1-.278-.156l-.094-.052a11.4 11.4 0 0 1-.363-.223l-.098-.065a10.557 10.557 0 0 1-.259-.172l-.083-.059c-.082-.058-.164-.116-.244-.176a11.921 11.921 0 0 1-.328-.255l-.099-.079c-.092-.076-.184-.152-.274-.231a12.01 12.01 0 0 1-.319-.288c-.028-.026-.055-.051-.081-.078a7.985 7.985 0 0 1-.208-.203l-.081-.081a10.76 10.76 0 0 1-.254-.269l-.012-.012a11.75 11.75 0 0 1-.258-.293l-.067-.081a10.313 10.313 0 0 1-.254-.313 11.855 11.855 0 0 1-.215-.286C3.864 11.825 3.17 8.186 4.715 5.198">
+                    </path>
+                    <path
+                        d="M8.794 4.809c-1.27 1.827-1.2 4.273-.21 6.205.166.324.353.639.561.938.191.273.401.597.654.816.092.101.187.199.284.295l.076.074c.094.092.19.182.291.271l.011.01.003.002c.111.097.224.19.34.281l.078.06a8.281 8.281 0 0 0 .366.268c.053.037.108.072.161.107.026.017.051.035.078.051a7.14 7.14 0 0 0 .301.184c.076.044.155.087.233.13.026.015.055.029.082.043.055.028.108.057.163.083a9.645 9.645 0 0 0 .365.171l.074.031c.093.039.186.077.281.113l.117.044c.086.032.171.06.256.089l.117.037c.121.038.243.085.37.107 6.556 1.086 8.068-3.961 8.068-3.961-1.364 1.964-4.006 2.902-6.825 2.17a7.866 7.866 0 0 1-.743-.232l-.118-.043a7.629 7.629 0 0 1-.353-.145 8.79 8.79 0 0 1-.344-.159c-.057-.028-.113-.058-.17-.087l-.099-.051a9.352 9.352 0 0 1-.533-.313l-.08-.053a7.65 7.65 0 0 1-.602-.435c-1.234-.974-2.213-2.306-2.678-3.815-.488-1.566-.382-3.323.462-4.75">
+                    </path>
+                    <path
+                        d="M13.379 3.221c-.749 1.102-.823 2.469-.304 3.686.548 1.292 1.671 2.304 2.981 2.785a3.85 3.85 0 0 0 .234.079c.077.024.152.053.233.067 3.62.699 4.601-1.857 4.862-2.234-.86 1.239-2.306 1.536-4.078 1.105a5.403 5.403 0 0 1-.939-.344 5.39 5.39 0 0 1-.895-.545c-1.585-1.204-2.573-3.501-1.536-5.372">
+                    </path>
+                </svg>
+                <h3>jquery</h3>
+            </div>
+            <!-- next.js -->
+            <div class=" hover:scale-125 p-3 cursor-pointer rounded-md">
+                <svg aria-label="Next.js" height="25" role="img" style="margin-top: 25px;" viewBox="0 0 394 79">
+                    <path d="M261.919 0.0330722H330.547V12.7H303.323V79.339H289.71V12.7H261.919V0.0330722Z"
+                        fill="var(--geist-foreground)"></path>
+                    <path
+                        d="M149.052 0.0330722V12.7H94.0421V33.0772H138.281V45.7441H94.0421V66.6721H149.052V79.339H80.43V12.7H80.4243V0.0330722H149.052Z"
+                        fill="var(--geist-foreground)"></path>
+                    <path
+                        d="M183.32 0.0661486H165.506L229.312 79.3721H247.178L215.271 39.7464L247.127 0.126654L229.312 0.154184L206.352 28.6697L183.32 0.0661486Z"
+                        fill="var(--geist-foreground)"></path>
+                    <path d="M201.6 56.7148L192.679 45.6229L165.455 79.4326H183.32L201.6 56.7148Z"
+                        fill="var(--geist-foreground)">
+                    </path>
+                    <path clip-rule="evenodd"
+                        d="M80.907 79.339L17.0151 0H0V79.3059H13.6121V16.9516L63.8067 79.339H80.907Z"
+                        fill="var(--geist-foreground)" fill-rule="evenodd"></path>
+                    <path
+                        d="M333.607 78.8546C332.61 78.8546 331.762 78.5093 331.052 77.8186C330.342 77.1279 329.991 76.2917 330 75.3011C329.991 74.3377 330.342 73.5106 331.052 72.8199C331.762 72.1292 332.61 71.7838 333.607 71.7838C334.566 71.7838 335.405 72.1292 336.115 72.8199C336.835 73.5106 337.194 74.3377 337.204 75.3011C337.194 75.9554 337.028 76.5552 336.696 77.0914C336.355 77.6368 335.922 78.064 335.377 78.373C334.842 78.6911 334.252 78.8546 333.607 78.8546Z"
+                        fill="var(--geist-foreground)"></path>
+                    <path
+                        d="M356.84 45.4453H362.872V68.6846C362.863 70.8204 362.401 72.6472 361.498 74.1832C360.585 75.7191 359.321 76.8914 357.698 77.7185C356.084 78.5364 354.193 78.9546 352.044 78.9546C350.079 78.9546 348.318 78.6001 346.75 77.9094C345.182 77.2187 343.937 76.1826 343.024 74.8193C342.101 73.456 341.649 71.7565 341.649 69.7207H347.691C347.7 70.6114 347.903 71.3838 348.29 72.0291C348.677 72.6744 349.212 73.1651 349.895 73.5105C350.586 73.8559 351.38 74.0286 352.274 74.0286C353.243 74.0286 354.073 73.8286 354.746 73.4196C355.419 73.0197 355.936 72.4199 356.296 71.6201C356.646 70.8295 356.831 69.8479 356.84 68.6846V45.4453Z"
+                        fill="var(--geist-foreground)"></path>
+                    <path
+                        d="M387.691 54.5338C387.544 53.1251 386.898 52.0254 385.773 51.2438C384.638 50.4531 383.172 50.0623 381.373 50.0623C380.11 50.0623 379.022 50.2532 378.118 50.6258C377.214 51.0075 376.513 51.5164 376.033 52.1617C375.554 52.807 375.314 53.5432 375.295 54.3703C375.295 55.061 375.461 55.6608 375.784 56.1607C376.107 56.6696 376.54 57.0968 377.103 57.4422C377.656 57.7966 378.274 58.0874 378.948 58.3237C379.63 58.56 380.313 58.76 380.995 58.9236L384.14 59.6961C385.404 59.9869 386.631 60.3778 387.802 60.8776C388.973 61.3684 390.034 61.9955 390.965 62.7498C391.897 63.5042 392.635 64.413 393.179 65.4764C393.723 66.5397 394 67.7848 394 69.2208C394 71.1566 393.502 72.8562 392.496 74.3285C391.491 75.7917 390.043 76.9369 388.143 77.764C386.252 78.582 383.965 79 381.272 79C378.671 79 376.402 78.6002 374.493 77.8004C372.575 77.0097 371.08 75.8463 370.001 74.3194C368.922 72.7926 368.341 70.9294 368.258 68.7391H374.235C374.318 69.8842 374.687 70.8386 375.314 71.6111C375.95 72.3745 376.78 72.938 377.795 73.3197C378.819 73.6923 379.962 73.8832 381.226 73.8832C382.545 73.8832 383.707 73.6832 384.712 73.2924C385.708 72.9016 386.492 72.3564 387.055 71.6475C387.627 70.9476 387.913 70.1206 387.922 69.1754C387.913 68.312 387.654 67.5939 387.156 67.0304C386.649 66.467 385.948 65.9944 385.053 65.6127C384.15 65.231 383.098 64.8856 381.899 64.5857L378.081 63.6223C375.323 62.9225 373.137 61.8592 371.541 60.4323C369.937 59.0054 369.143 57.115 369.143 54.7429C369.143 52.798 369.678 51.0894 370.758 49.6261C371.827 48.1629 373.294 47.0268 375.148 46.2179C377.011 45.4 379.114 45 381.456 45C383.836 45 385.92 45.4 387.719 46.2179C389.517 47.0268 390.929 48.1538 391.952 49.5897C392.976 51.0257 393.511 52.6707 393.539 54.5338H387.691Z"
+                        fill="var(--geist-foreground)"></path>
+                </svg>
+                <h3 class="">NEXT.JS</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- project -->
+    <section id="project" class="p-6 lg:w-3/4 lg:ms-auto w-full">
+
+        <h2
+            class="main-heding text-center w-fit mx-auto dark:bg-mainColorDark bg-mainColorLight text-white text-3xl p-5">
+            المشاريع
+        </h2>
+
+        <div class="flex flex-wrap py-5">
+
+
+            <!-- yummy -->
+            <div class=" w-1/2 md:w-1/3 lg:w-1/3 p-4 relative">
+                <div class="h-64 group ">
+                    <img class="w-full h-full " src="img/yummy.PNG" alt="osaka">
+                    <div
+                        class="absolute bottom-1/2 translate-y-1/2 -translate-x-1/2 left-1/2 group-hover:opacity-100 opacity-0 transition-all duration-700">
+                        <a target="_blank" href="https://ahmed-elmansory.github.io/Yummy/">
+                            <i class="fa fa-search lg:p-4 p-2 bg-mainColorLight text-white cursor-pointer"></i>
+                        </a>
+                        <a target="_blank" href="https://github.com/ahmed-elmansory/Yummy">
+                            <i class="fa fa-code lg:p-4 p-2 bg-mainColorLight text-white cursor-pointer"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- angora -->
+            <div class=" w-1/2 md:w-1/3 lg:w-1/3 p-4 relative">
+                <div class="h-64 group ">
+                    <img class="w-full h-full " src="img/angora.jpg" alt="osaka">
+                    <div
+                        class="absolute bottom-1/2 translate-y-1/2 -translate-x-1/2 left-1/2 group-hover:opacity-100 opacity-0 transition-all duration-700">
+                        <a target="_blank" href="https://ahmed-elmansory.github.io/angora/">
+                            <i class="fa fa-search lg:p-4 p-2 bg-mainColorLight text-white cursor-pointer"></i>
+                        </a>
+                        <!-- code -->
+                        <a target="_blank" href="https://github.com/ahmed-elmansory/angora">
+                            <i class="fa fa-code lg:p-4 p-2 bg-mainColorLight text-white cursor-pointer"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- asaka -->
+            <div class=" w-1/2 md:w-1/3 lg:w-1/3 p-4 relative">
+                <div class="h-64 group ">
+                    <img class="w-full h-full " src="img/osakajpg.jpg" alt="osaka">
+                    <div
+                        class="absolute bottom-1/2 translate-y-1/2 -translate-x-1/2 left-1/2 group-hover:opacity-100 opacity-0 transition-all duration-700">
+                        <a target="_blank" href="https://ahmed-elmansory.github.io/OSAKA/">
+                            <i class="fa fa-search lg:p-4 p-2 bg-mainColorLight text-white cursor-pointer"></i>
+                        </a>
+                        <!-- code -->
+                        <a target="_blank" href="https://github.com/ahmed-elmansory/OSAKA">
+                            <i class="fa fa-code lg:p-4 p-2 bg-mainColorLight text-white cursor-pointer"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+    <!-- contact -->
+    <section id="contact" class="p-6 lg:w-3/4 lg:ms-auto w-full">
+        <h2
+            class="main-heding text-center w-fit mx-auto dark:bg-mainColorDark bg-mainColorLight text-white text-3xl p-5">
+            الاتصال
+        </h2>
+
+        <ul class="text-1xl pt-6">
+            <li class="fw-bold">
+                <a class="text-dark" target="_blank" href="tle:01009979934">
+                    <i class="fas fa-phone-volume bg-mainColorLight dark:bg-mainColorDark text-white p-2 my-2"></i>
+                    01009979934
+                </a>
+            </li>
+
+            <li class="fw-bold">
+                <a class="text-dark" href="https://wa.me/2001009979934" target="_blank">
+                    <i class="fab fa-whatsapp bg-mainColorLight dark:bg-mainColorDark text-white p-2 my-2 "></i>
+                    Whatsapp
+                </a>
+            </li>
+
+            <li class="fw-bold">
+                <a class="text-dark" href="https://www.linkedin.com/in/ahmed-elmansory-" target="_blank">
+                    <i class="fab fa-linkedin bg-mainColorLight dark:bg-mainColorDark text-white p-2"></i>
+                    linkd-in
+                </a>
+            </li>
+            <li class="fw-bold">
+                <a href=""></a>
+                <a class="text-dark" href="mailto:ahmedelmansory.web@gmail.com" target="_blank">
+                    <i class="far fa-envelope bg-mainColorLight dark:bg-mainColorDark text-white p-2 my-2"></i>
+                    ahmedelmansory@gmail.com
+                </a>
+            </li>
+            <li class="fw-bold">
+                <a class="text-dark" href="https://github.com/ahmed-elmansory" target="_blank">
+                    <i class="fab fa-github bg-mainColorLight dark:bg-mainColorDark text-white p-2"></i>
+                    github
+                </a>
+            </li>
+        </ul>
+
+        <form id="form" action="mailto:ahmedelmansory17@gmail.com" method="post" enctype="text/plain"
+            class="py-4 md:w-3/4 mx-auto">
+            <input class="w-full p-2 rounded-lg my-2 outline-none boreder border-stone-300 border-2" required
+                type="text" name="name" id="name" placeholder="الاسم">
+            <input class="w-full p-2 rounded-lg my-2 outline-none boreder border-stone-300 border-2" required
+                type="email" name="email" id="email" placeholder="الايميل">
+            <textarea class="w-full p-2 rounded-lg my-2 outline-none resize-none boreder border-stone-300 border-2"
+                required name="message" id="message" rows="6" placeholder="الرسالة ..."></textarea>
+            <button
+                class="bg-mainColorLight dark:bg-mainColorDark text-white  py-2 px-3 rounded-md active:scale-90  hover:border-slate-50"
+                type="submit">
+                ارسال
+            </button>
+
+        </form>
+    </section>
+
+
+
+
+    <script src="js/js-ar.js"></script>
+</body>
+
+</html>
